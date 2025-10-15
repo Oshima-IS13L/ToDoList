@@ -10,19 +10,8 @@ React + Vite で作ったシンプルなTODOリストアプリです。
 - 並び替え：登録順 or 期限順
 - シンプルで見やすい UI
 
-## ファイル構成
-```bash
-my-app/
-├─ src/
-│ ├─ App.jsx # メインコンポーネント
-│ ├─ index.css # グローバルスタイル
-│ ├─ App.css # 個別スタイル
-│ ├─ main.jsx # React のエントリーポイント
-│ └─ assets/ # 画像やアイコンなど
-├─ package.json # プロジェクト設定・依存関係
 
 ## 実行方法
-```bash
 1. リポジトリをクローン
 git clone https://github.com/Oshima-IS13L/todo-list.git
 cd todo-list/my-app
@@ -48,3 +37,14 @@ npm run dev
 モバイル対応やレスポンシブデザイン
 
 フィルター機能（完了済み / 未完了）
+
+## ファイル構成
+```bash
+my-app/
+├─ src/
+│ ├─ App.jsx # メインコンポーネント
+│ ├─ index.css # グローバルスタイル
+│ ├─ App.css # 個別スタイル
+│ ├─ main.jsx # React のエントリーポイント
+│ └─ assets/ # 画像やアイコンなど
+├─ package.json # プロジェクト設定・依存関係
