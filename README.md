@@ -20,11 +20,10 @@ my-app/
 │ ├─ main.jsx # React のエントリーポイント
 │ └─ assets/ # 画像やアイコンなど
 ├─ package.json # プロジェクト設定・依存関係
+
 ## 実行方法
-
-1. リポジトリをクローン
-
 ```bash
+1. リポジトリをクローン
 git clone https://github.com/Oshima-IS13L/todo-list.git
 cd todo-list/my-app
 2. 依存関係のインストール
