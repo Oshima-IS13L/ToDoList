@@ -12,7 +12,6 @@ React + Vite で作ったシンプルなTODOリストアプリです。
 
 ## ファイル構成
 
-
 my-app/
 ├─ src/
 │ ├─ App.jsx # メインコンポーネント
@@ -21,7 +20,6 @@ my-app/
 │ ├─ main.jsx # React のエントリーポイント
 │ └─ assets/ # 画像やアイコンなど
 ├─ package.json # プロジェクト設定・依存関係
-
 ## 実行方法
 
 1. リポジトリをクローン
@@ -29,21 +27,20 @@ my-app/
 ```bash
 git clone https://github.com/Oshima-IS13L/todo-list.git
 cd todo-list/my-app
-
-依存関係のインストール
+2. 依存関係のインストール
 
 npm install
 
 
-開発サーバーの起動
+3. 開発サーバーの起動
 
 npm run dev
 
 
-ブラウザで表示
-通常は http://localhost:5173 にアクセス
+4. ブラウザで表示
+通常は http://localhost:5173にアクセス
 
-今後の拡張案
+## 今後の拡張案
 
 タスクのローカルストレージ保存（ページ更新しても残る）
 
@@ -52,6 +49,3 @@ npm run dev
 モバイル対応やレスポンシブデザイン
 
 フィルター機能（完了済み / 未完了）
-
-
-
